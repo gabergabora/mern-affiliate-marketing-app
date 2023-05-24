@@ -3,7 +3,8 @@ const {check,validationResult} = require('express-validator');
 const jwt = require('jsonwebtoken');
 
 const bcrypt = require('bcrypt');
-const User = require('../../models/User');
+const User = require('../../models/User');    
+
 const Zoom = require('../../models/Zoom');
 const Notice = require('../../models/Notice');
 const express = require('express');
