@@ -11,7 +11,7 @@ const UserSchema = new mongoose.Schema({
         type:String,
     },
     name:{
-        type: String,
+        type: String,       
         
     },
     mobile:{
